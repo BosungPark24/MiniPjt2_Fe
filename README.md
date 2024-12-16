@@ -1,12 +1,87 @@
-<<<<<<< HEAD
-# React + Vite
+SK쉴더스 루키즈 미니 프로젝트2 - 소셜 미디어 플랫폼 'Rookiestagram'
+글 작성•수정•삭제, 댓글, 사진 업로드 기능에 대한 프론트엔드 코드 작성
+React와 Vite활용
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+아래는 요청하신 내용을 살을 붙여 정리한 `README.md` 초안입니다.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# MiniPjt2_Fe
->>>>>>> e4b7e8f9585f40b0abb23b84abdcd64f55659d76
+# **Rookiestagram - 소셜 미디어 플랫폼**  
+
+## **프로젝트 소개**  
+Rookiestagram은 SK쉴더스 루키즈 미니 프로젝트 2로 진행된 소셜 미디어 플랫폼입니다.  
+사용자가 사진과 글을 공유하며, 다른 사용자들과 소통할 수 있는 기능을 제공합니다.  
+
+이 프로젝트에서는 React와 Vite를 활용하여 **글 작성, 수정, 삭제**, **댓글 작성**, **사진 업로드**와 같은 핵심 기능을 담당하고 구현하였습니다.  
+
+---
+
+## **주요 기능**  
+### 🖋️ **글 작성, 수정, 삭제**  
+- 사용자가 소셜 미디어 게시글을 작성하고, 필요 시 수정하거나 삭제할 수 있는 기능.  
+- 실시간 반영을 통해 사용자가 작성한 글이 즉시 UI에 나타나도록 구현.  
+
+### 💬 **댓글 기능**  
+- 게시글에 댓글을 달아 다른 사용자와 소통 가능.  
+- 댓글 작성 후 자동 업데이트를 통해 실시간으로 소통 경험 제공.  
+
+### 📷 **사진 업로드**  
+- 게시글 작성 시 사진 업로드 및 미리보기 기능 제공.  
+- 이미지 파일의 유효성 검사를 통해 업로드 과정에서 오류를 방지.  
+
+---
+
+## **기술 스택**  
+### **프론트엔드**  
+- **React**: 컴포넌트 기반 UI 설계 및 상태 관리.  
+- **Vite**: 빠른 빌드와 개발 환경을 제공하는 React 프로젝트 도구.  
+- **HTML/CSS**: 사용자 친화적이고 직관적인 UI 디자인.  
+
+---
+
+## **구현 과정에서의 중점 사항**  
+1. **코드 구조화**  
+   - React 컴포넌트 분리 및 재사용성을 고려한 설계.  
+   - 효율적인 상태 관리를 위해 React의 useState 및 useEffect 활용.  
+
+2. **사용자 경험(UX) 최적화**  
+   - 직관적인 인터페이스 설계로 사용자가 쉽게 기능을 이해하고 사용할 수 있도록 구현.  
+   - 사진 업로드 시 즉시 미리보기를 제공하여 사용 편의성 향상.  
+
+3. **성능 최적화**  
+   - Vite의 빠른 개발 환경을 활용하여 생산성을 높임.  
+   - 불필요한 렌더링을 최소화하여 성능 개선.  
+
+---
+
+## **설치 및 실행 방법**  
+
+1. **프로젝트 클론**  
+   ```bash
+   git clone https://github.com/your-repository/rookiestagram.git
+   cd rookiestagram
+   ```
+
+2. **패키지 설치**  
+   ```bash
+   npm install
+   ```
+
+3. **개발 서버 실행**  
+   ```bash
+   npm run dev
+   ```
+
+4. **애플리케이션 접속**  
+   브라우저에서 [http://localhost:5173](http://localhost:5173) 접속.  
+
+---
+
+## **기여자**  
+- **박보성**  
+  - 글 작성, 수정, 삭제, 댓글 기능 개발 및 사진 업로드 프론트엔드 구현.  
+- **SK쉴더스 루키즈 팀원들**  
+
+---
+
+위 내용을 기반으로 추가 사항이 있거나 수정이 필요하면 말씀해주세요!
